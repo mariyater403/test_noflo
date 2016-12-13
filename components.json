@@ -1,0 +1,17 @@
+  "dependencies": {
+    "noflo/noflo": "*",
+    "JustinTulloss/zeromq.node": "*",
+     "mariyater403/test3": "*"
+  },
+  "scripts": [
+    "components/ZmqRequestReply.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "ZmqRequestReply": "components/ZmqRequestReply.coffee"
+    }
+  }
