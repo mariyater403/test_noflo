@@ -1,0 +1,52 @@
+{
+  "name": "option-pricer",
+  "description": "NoFlo component that controls execution of price calculator for options in backtesting demo",
+  "version": "0.1.0",
+  "author": {
+    "name": "Valentin Pan",
+    "email": "valentin.pan@econophysica.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.ecotomsk.com/ecolink/MPI-prototype.git"
+  },
+  "licenses": [
+    {
+      "type": "Internal",
+      "url": "undefined/blob/master/LICENSE-Internal"
+    },
+    {
+      "type": "Use",
+      "url": "undefined/blob/master/LICENSE-Use"
+    }
+  ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "noflo": "^0.5.22",
+    "noflo-nodejs": "^0.7.2"
+  },
+  "devDependencies": {
+    "chai": "~2.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cafe-mocha": "~0.1.13",
+    "grunt-coffeelint": "~0.0.13",
+    "grunt-contrib-coffee": "~0.13.0",
+    "grunt-contrib-uglify": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-phantomjs": "~0.6.0",
+    "grunt-noflo-browser": "^0.1.9",
+    "grunt-noflo-manifest": "~0.1.11",
+    "mocha": "~2.1.0"
+  },
+  "keywords": [
+    "noflo",
+    "ecosystem:noflo"
+  ],
+  "noflo": {
+    "components": {
+      "OptionPricer": "components/OptionPricer.js"
+    }
+  }
+}
